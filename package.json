@@ -2,7 +2,7 @@
 	"name": "atcoder-python-snippets",
 	"displayName": "AtCoder Python Snippets",
 	"description": "AtCoder Python Snippets",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "hirosuzuki",
 	"engines": {
 		"vscode": "^1.28.0"
