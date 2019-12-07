@@ -1,0 +1,77 @@
+{
+	"AtCoder: Create Solve Function": {
+		"prefix": "accsf",
+		"body": [
+			"def solve(${1:N}):",
+			"\treturn 0",
+			"",
+			"print(solve($1))"
+		]
+	},
+	"AtCoder: Create Solve Function (Bool)": {
+		"prefix": "accsfb",
+		"body": [
+			"def solve(${1:N}):",
+			"\treturn False",
+			"",
+			"if solve($1):",
+			"\tprint('Yes')",
+			"else:",
+			"\tprint('No')"
+		]
+	},
+	"AtCoder: Scan String": {
+		"prefix": "acss",
+		"body": [
+			"${1:N} = input()"
+		]
+	},
+	"AtCoder: Scan Number": {
+		"prefix": "acsn",
+		"body": [
+			"${1:N} = int(input())"
+		]
+	},
+	"AtCoder: Scan Numbers": {
+		"prefix": "acsns",
+		"body": [
+			"${1:N} = [int(_) for _ in input().split()]"
+		]
+	},
+	"AtCoder: Scan Numbers from Multi Lines": {
+		"prefix": "acsnsm",
+		"body": [
+			"${1:N} = [[int(_) for _ in input().split()] for i in range(N)]"
+		]
+	},
+	"AtCoder: Import gcd": {
+		"prefix": "acigcd",
+		"body": [
+			"from fractions import gcd"
+		]
+	},
+	"AtCoder: Import Collections": {
+		"prefix": "acicollections",
+		"body": [
+			"from collections import Counter, deque, defaultdict"
+		]
+	},
+	"AtCoder: Import heapq": {
+		"prefix": "aciheapq",
+		"body": [
+			"from heapq import heappush, heappop, heappushpop, heapify, heapreplace, merge"
+		]
+	},
+	"AtCoder: Import bisect": {
+		"prefix": "acibisect",
+		"body": [
+			"from bisect import bisect_left, bisect_right, bisect, insort_left, insort_right, insort"
+		]
+	},
+	"AtCoder: Import itertools": {
+		"prefix": "aciitertools",
+		"body": [
+			"from itertools import accumulate, product, permutations, combinations"
+		]
+	}
+}
